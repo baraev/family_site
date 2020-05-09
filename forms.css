@@ -1,0 +1,37 @@
+#gender {
+	/*font-variant:small-caps;*/
+	color:#0000aa;
+}
+#month {
+	position:fixed;
+	top:190px;
+	left:330px;
+	color:#336688;
+	
+}
+.format {
+	height:500; 
+	width:580; 
+	padding:10; 
+/*	background-color:#; */
+	box-shadow: 15px 20px 5px #999999;
+	background: linear-gradient(#aaffdd,#44aabb, #aaeeff);
+}
+#bot {
+	position:absolute;
+	top:440px;
+	left:200px;
+}
+#hid {
+	visibility:hidden;
+}
+.name1 {
+	height:70;
+	width:250;
+	margin-right:0;
+}
+.mess {
+	position:absolute;
+	top:10px;
+	left:300px;
+}

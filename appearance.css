@@ -1,0 +1,26 @@
+ol {
+	color:#0099aa;
+	font-size:2em;
+	text-indent:1em;
+	list-style-type: lower-alpha;
+}
+ul {
+	list-style-position:inside;
+	/*list-style-type:square;*/
+	
+}
+#toform {
+	position:static;
+	margin-left:150px;
+	vertical-align:center;
+	width:200px;
+	height:100px;
+	background:#00ff00;
+	transition:width 5s, font-size 5s;
+	font-size:1.25em;
+	border-radius:15px;
+}
+#toform:hover {
+	width:300px;
+	font-size:1.5em;
+}

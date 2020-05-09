@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8" />
+<link rel="stylesheet" href="forms.css">
+<title>Форма</title>
+</head>
+<body >
+<article class="format">
+<form action="formdata.php" method="post" name="form1" >
+<section class="name1">
+<fieldset>
+<legend>Основная информация</legend>
+<p><label>Имя:<input type="text" name="name" size="22" maxlength="30"></label></p>
+<p><label>Email:<input type="text" name="mail"></label></p>
+</fieldset>
+</section>
+<br>
+<br>
+<br>
+<br>
+<fieldset>
+<legend>Дополнительные данные</legend>
+<h3>Ваш пол</h3>
+<p id="gender">Мужчина<input type="radio" name="rad" value="Мужчина" checked><span id=hid>aaa</span> Женщина<input type="radio" name="rad" value="женщина"></p>
+<div id="month">
+<p>Месяц вашего рождения</p>
+<select name="months">
+	<option>январь</option>
+	<option>февраль</option>
+	<option>март</option>
+	<option>апрель</option>
+	<option>май</option>
+	<option>июнь</option>
+	<option>июль</option>
+	<option selected>август</option>
+	<option>сентябрь</option>
+	<option>октябрь</option>
+	<option>ноябрь</option>
+	<option>декабрь</option>
+</select>
+</div>
+</fieldset>
+<p><label for="textaria">Дополнительная информация</label></p>
+<textarea rows=6 cols=68 id="textaria" name="mytext"> </textarea>
+<p><input type="reset" value="Сбросить"> <input type="submit" value="Отправить"></p>
+<p id=bot><input type="image" src="submit.png"></p>
+<section class="mess">
+<p>Предпочитаемая форма оповещения</p>
+<p><input type="checkbox" name="email" value="email">Email<span id=hid>aaasi</span><input type="checkbox" name="viber" value="viber" checked>Viber</p>
+<p><input type="checkbox" name="watsup" value="watsup">Watsup<span id=hid>aaa</span><input type="checkbox" name="sms" value="sms">SMS</p>
+</section>
+</form>
+</article>
+</body>
+
+</html>
