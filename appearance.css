@@ -24,3 +24,14 @@ ul {
 	width:300px;
 	font-size:1.5em;
 }
+.kindered {
+	background-color: #aaffdd;
+	width: 350px;
+	left: 150px;
+	top: 200px;
+	border-radius: 20px;
+	box-shadow: 7px 10px 5px 4px #003355;
+	padding: 10px;
+	margin-left: 70px;
+	transform: translate(160px, -170px);
+}
