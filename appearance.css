@@ -35,3 +35,10 @@ ul {
 	margin-left: 70px;
 	transform: translate(160px, -170px);
 }
+.myfamily {
+	width: 200px;
+	background-color: #aabbff;
+	border-radius: 20px;
+	box-shadow: 5px 5px 4px 4px #226622;
+	padding: 10px;
+}
