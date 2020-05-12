@@ -1,12 +1,12 @@
 ol {
-	color:#0099aa;
+	
 	font-size:1.5em;
 	text-indent:1em;
 	list-style-type: lower-alpha;
 }
 ul {
 	list-style-position:inside;
-	/*list-style-type:square;*/
+	
 	
 }
 #toform {
@@ -33,5 +33,16 @@ ul {
 	box-shadow: 7px 10px 5px 4px #003355;
 	padding: 10px;
 	margin-left: 70px;
-	transform: translate(160px, -170px);
+	transform: translate(180px, -220px);
+}
+.myfamily {
+	top: -100px;
+	width: 200px;
+	background-color: #aabbff;
+	border-radius: 20px;
+	box-shadow: 5px 5px 4px 4px #226622;
+	padding: 10px;
+	margin-top: 60px;
+	color: blue;
+		
 }
