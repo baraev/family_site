@@ -28,7 +28,7 @@ ul {
 	box-shadow: 7px 10px 5px 4px #003355;
 	padding: 10px;
 	margin-left: 70px;
-	transform: translate(180px, -360px);
+	transform: translate(180px, -500px);
 }
 .myfamily {
 	top: -100px;
@@ -46,6 +46,12 @@ ul {
 .fotofam {
 	Width: 200px;
 	height: 200px;
-	background-color: Yellow;
+	background-color: green;
 	border-radius: 15px;
+}
+#imgfam {
+	align: center;
+}
+#imgfam:hover {
+	width: 300px;
 }
