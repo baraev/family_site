@@ -55,3 +55,16 @@ ul {
 #imgfam:hover {
 	width: 300px;
 }
+body {
+	background-color: PaleGoldenrod;
+}
+#fon {
+	width: 400px;
+	height:600px;
+	opacity: 0.2;
+	position: fixed;
+	right: 1px;
+	top:-5px;
+	
+
+}
