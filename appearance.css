@@ -65,6 +65,10 @@ body {
 	position: fixed;
 	right: 1px;
 	top:-5px;
+}
+#vector_svg {
+	position: relative;
+	top: -300px;
+	width: 800px;
 	
-
 }
