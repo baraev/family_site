@@ -135,9 +135,20 @@
 	ctx.fillStyle = "rgba(0,200,0,1)";
 	ctx.fillRect (30,10,780,300);
 	ctx.strokeStyle = "red";
-	ctx.lineWidth = 4
-	ctx.moveTo(40,20);
-	ctx.lineTo(700,250);
+	ctx.lineWidth = 10
+	ctx.moveTo(60,40);
+	ctx.lineTo(770,40);
+	ctx.lineTo(770,280);
+	ctx.lineTo(60,280);
+	ctx.closePath();
+	ctx.stroke();
+	ctx.strokeStyle = "blue";
+	ctx.lineWidth = 6;
+	ctx.beginPath();
+	ctx.arc(160,160,80,0,2*Math.PI);
+	ctx.stroke();
+	ctx.beginPath();
+	ctx.arc(670,160,80,0,2*Math.PI);
 	ctx.stroke();
 	</script>
 	</section>
