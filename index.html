@@ -124,12 +124,23 @@
 	<animate attributeName="cx" values="800;720;800" dur="3s" fill="freese" repeatCount="10"/>
 	<animate attributeName="r" from="25" to="40" dur="3s" fill="freese" repeatCount="10"/>
 	</circle>
-		
-	
-	</rect>
 	</svg>
 	</section>
-
+	
+	<section style="width:800; height:500; top:-300; position:relative;">
+	<canvas id="canvas1" width="800" height="400"></canvas>
+	<script>
+	var canvas = document.getElementById("canvas1");
+	var ctx=canvas.getContext("2d");
+	ctx.fillStyle = "rgba(0,200,0,1)";
+	ctx.fillRect (30,10,780,300);
+	ctx.strokeStyle = "red";
+	ctx.lineWidth = 4
+	ctx.moveTo(40,20);
+	ctx.lineTo(700,250);
+	ctx.stroke();
+	</script>
+	</section>
 <a href="#"> Наверх </a><br>
 
 </body>
